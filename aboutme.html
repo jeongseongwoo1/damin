@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Damin Ryu" />
+    <!-- favicons -->
+    <link
+      rel="icon"
+      href="https://img.icons8.com/?size=100&id=I0qzWAfSVc5o&format=png&color=000000"
+      size="100x100"
+    />
+    <title>About Me</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/aos.css" />
+    <link
+      rel="stylesheet"
+      href="./CSS/fancybox.css"
+      size="16x16"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="./assets/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+    <body id="body" data-bs-spy="scroll" data-bs-target="#navbar">
+      <nav id="navbar">
+      </nav>
+
+    <main id="main" class="my-5">
+      <div class="container">
+        <!--  row start -->
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-1">
+
+            <h1 class="mt-7" ><b>About Me!</b></h1>
+          </div>
+          <div class="col-md-1">
+            </div>
+          <div class="col-md-4">
+            
+            <img src="./IMG/profile.jpg" id="profile" alt="" />
+          </div>
+          <div class="col-md-5">
+      
+            <p class="mt-4">
+              <b class="name">이름</b>&nbsp;&nbsp;&nbsp;류다민 (柳多珉, damin Ryu)
+              <br /><br />
+              <b class="name">출생</b>&nbsp;&nbsp;&nbsp;1999년 07월 13일 (만 24세), 부산
+              <br /><br />
+              <b class="name">취미</b>&nbsp;&nbsp;&nbsp;전시회 감상, 기타 연주, 야구 관람<br /><br />
+              <b class="name">특기</b>&nbsp;&nbsp;&nbsp;드로잉, 인물 보정, 중국어<br /><br />
+              <b class="name">MBTI</b>&nbsp;&nbsp;&nbsp;ESTP <br />
+            </p>
+
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="modalBtn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              + more view
+            </button>
+          </div>
+        </div>
+        <!--  row end -->
+        <!--  row start -->
+        <br><hr>
+        <div class="row my-5">
+          <div class="col">
+            <div class="text-white py-1 card text-center" id="daily">
+              <div class="card-body">My Daily Life</div>
+            </div>
+          </div>
+        </div>
+        <!--  row end -->
+        <!--  row start -->
+        <div id="aaa" class="row my-5">
+          <div class="col">
+            <div class="card-group">
+              <div class="card" id="cardGroup">
+                <img class="card-img-top" src="./IMG/art1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Art</h5>
+                  <p class="card-text">
+                    초현실주의 포토그래퍼 Ralph Gibson을 기념하는 랄프 깁슨
+                    사진미술관을 다녀왔습니다. 평소 사진 찍는 것을 좋아하던
+                    저에게 너무나 가보고 싶었던 사진전이었습니다. 랄프 깁슨은
+                    '우리가 보는 사진과 세상, 추상적인 면을 보고자 했다'라는
+                    말을 남겼습니다. 그의 작품을 살펴보며 그 뜻을 바로 이해할 수
+                    있었습니다. 카메라를 만지는 것을 좋아하지만 부족하던 저에게
+                    많은 배움을 주는 전시였습니다.
+                  </p>
+                </div>
+              </div>
+              <div class="card" id="cardGroup">
+                <img class="card-img-top" src="./IMG/music1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Music</h5>
+                  <p class="card-text">
+                    취미가 무엇이냐는 물음에 명확히 무엇이라고 대답을 하지
+                    못하였습니다. 그래서 저의 확실한 취미를 찾기 위해 관심이 많았던 일렉 기타를 배워보기로 하였습니다. 좋아하고
+                    즐겨 듣던 노래를 연습하여 제 손으로 연주하는 것에 뿌듯함과
+                    흥미를 느꼈고 더 많은 곡을 연주하고 싶다는 열정이
+                    샘솟았습니다. 그리하여 현재 저의 취미가 무엇이냐는 질문을
+                    듣는다면 망설임 없이 기타 연주라고 답할 것입니다.
+                  </p>
+                </div>
+              </div>
+              <div class="card" id="cardGroup">
+                <img class="card-img-top" src="./IMG/sports1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Sports</h5>
+                  <p class="card-text">
+                    이 세상에 스트레스를 받지 않는 사람은 없습니다. 그
+                    스트레스를 어떻게 해소하는지가 중요하다고 생각합니다. 저의
+                    스트레스 해소법은 야구장에서 치킨을 먹으며 열정적으로
+                    응원하기입니다. 목이 터져라 응원가를 부르며 경기에 집중하여
+                    좌절하고 기뻐하다 보면 어느새 부정적이던 기분들은 다
+                    사라져버립니다. 저에게 야구는 그저 스포츠가 아닌 제 삶의
+                    중요한 친한 친구같은 존재입니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  row end -->
+      </div>
+    </main>
+    <div class="go">
+      <a href="index.html" id="goBtn">HOME →</a>
+    </div>
+    <footer>
+      <a
+        href="#myBody"
+        id="scroll-top"
+        class="scroll-top d-flex align-items-center justify-content-center"
+        ><i class="bi bi-arrow-up-short"></i
+      ></a>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">
+                본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로
+                제작되었습니다.<br />
+                Copyrights &copy; 2024 damin Ryu
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">'현재 이 순간에 충실하라'</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            고등학교 2학년 때 중국 유학을 시작하여 상해 미국 국제 세인트폴 고등학교를 졸업한 후 상해 복단대학교 대외 한어 상업 무역(비즈니스) 과를 졸업하였습니다. 평소 그림을 그리고 새로운 것을 만들어내는 것을 좋아하였고 디자인에 관하여 제대로 배워보고 싶다고 생각하게 되었습니다. 그 후 학원에 다니며 포토샵 1급을 취득하였으며 일러스트레이터 강의를 수강하였고 현재는 Premiere Pro와 After Effects 등 영상 편집과 웹디자인에 관해 배우고 있습니다. <br> <br>
+          저는 어떠한 일을 처리할 때 그에 관해 계획을 꼭 세우는 편입니다. 매년 할로인, 크리스마스, 연말 등 드레스 코드를 정하고 콘셉트를 정하는 등 소소한 파티를 주도하고는 합니다. 무엇인가 기획하고 만들어내는 것을 좋아하여 대학교 때 연극 동아리에 지원하였습니다. 무대를 기획, 홍보하고 소품을 제작하는 역할을 맡았으며 양일 무대 매진이라는 성과를 이루어내었습니다. <br>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="closeBtn"
+              data-bs-dismiss="modal"
+            >
+              Close
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
